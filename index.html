@@ -1,0 +1,48 @@
+<html>
+    <head>
+        <style>
+            .first{
+                color:gray;
+            }
+            #first_div{
+                color:blue
+            }
+        </style>
+    </head>
+    <body>
+        <script>
+            var a=5;//number
+            var b="hello"//string
+            var c=function(){
+
+            }//function(此为变量)
+            var d = NULL//NULL
+            var e = defined//unfined
+            var f = {
+                num:5,
+                s:"hello",
+                f:function,(){
+
+                },
+                o:{
+
+                }
+            }//objict（可以装任何东西,最后一个成员不要加逗号）
+        </script>
+        <div>
+            <div id="first_div" class="first_class">
+                <div class="first_class">
+                    hello
+                </div>
+                <div>
+                    world
+                </div>
+            </div>
+            <div class="first_class">
+                No class
+            </div>
+        </div>
+    </body>
+</html>//(object类型在调用至函数后自身也会变，别的类型不会变)。
+//函数tupeof可判断类型是否相同，如(typeof 5)==(typeof"5")会返回“flase”
+//（1.1*10-1*10）/10可得到0.1，不然不乘不除会出现很多的小数位，不确定的话可以多乘很多倍。
